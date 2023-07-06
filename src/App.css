@@ -38,7 +38,7 @@ button {
   text-align: center;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url(https://besthqwallpapers.com/Uploads/28-2-2018/42438/thumb2-tropical-island-ocean-summer-travel-palms.jpg);
+  background-image: url(https://images.unsplash.com/photo-1614586125858-e695dd97d1b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2103&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -195,13 +195,13 @@ img {
   .card__location {
     font-size: 16px;
   }
- 
+
 }
- 
+
 @media screen and (max-width: 800px) {
   .main__loader {
-   background-color: rgba(36, 51, 54, 0.5); 
-   
+    background-color: rgba(36, 51, 54, 0.5); 
+  
     box-shadow: 10px 5px 5px rgb(67, 67, 67);
     width: fit-content;
     margin: 1.5rem;

@@ -1,10 +1,9 @@
 import React from 'react'
- 
 
-const WeatherCard = ({weather}) => { //Aca llega la info de weather que se manda por Props y siempre es un objeto que hay q destructiring {} !!!!
-    
-    // console.log(weather?.weather[0].description)
-  return (
+
+const WeatherCard = ({weather}) => {
+
+    return (
     
     <article className='card '>
         <header className='card__header'>
@@ -26,9 +25,9 @@ const WeatherCard = ({weather}) => { //Aca llega la info de weather que se manda
         </section>
         
         </div>
-         
+        
     </article>
-  )
+    )
 }
 
 export default WeatherCard
